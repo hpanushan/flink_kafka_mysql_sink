@@ -1,0 +1,6 @@
+CREATE TABLE `Student` (
+  `id` int(11) unsigned NOT NULL,
+  `name` varchar(25) COLLATE utf8_bin DEFAULT NULL,
+  `password` varchar(25) COLLATE utf8_bin DEFAULT NULL,
+  `age` int(10) DEFAULT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
